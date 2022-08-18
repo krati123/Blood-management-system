@@ -1,0 +1,85 @@
+.blog-w3ls {
+    background: url(../images/bg4.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.pricing {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.pricing:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+.price-top {
+    position: relative;
+}
+
+.price-top h3 {
+    font-size: 26px;
+    color: #fff;
+    position: absolute;
+    background: #4575bd;
+    padding: 10px 25px;
+    bottom: 0;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.price-top h3 span {
+    display: block;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.price-bottom {
+    background: #fff;
+}
+
+.price-bottom h4 {
+    font-size: 23px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+}
+
+.price-bottom i {
+    color: #f44336;
+}
+
+.price-bottom a {
+    color: #999;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.price-bottom a:Hover {
+    color: #000;
+}
+
+/* //blog */
+/* treatments */
+.screen-agile i {
+    background: #f44336;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 2.2;
+}
+
+.screen-agile-2 h5 {
+    font-size: 26px;
+}
